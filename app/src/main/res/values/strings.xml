@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">資經報修APP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="classroom_list">
+        <item>606</item>
+        <item>608</item>
+        <item>610</item>
+        <item>612</item>
+        <item>807</item>
+        <item>809</item>
+        <item>611A(玻璃屋)</item>
+        <item>611B(玻璃屋)</item>
+        <item>專題教室</item>
+    </string-array>
+
+    <string-array name="item_list">
+        <item>麥克風</item>
+        <item>電子講桌</item>
+        <item>投影機</item>
+        <item>冷氣</item>
+        <item>風扇</item>
+        <item>電燈</item>
+        <item>學生電腦</item>
+        <item>中間投影功能</item>
+
+    </string-array>
+</resources>

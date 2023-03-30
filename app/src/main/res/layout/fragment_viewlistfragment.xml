@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/purple_200"
+    tools:context=".addlistfragment">
+
+    <RelativeLayout
+        android:id="@+id/title_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/page_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="報修清單"
+            android:textColor="@color/purple_500"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/spn_layout1"
+        android:layout_width="377dp"
+        android:layout_height="323dp"
+        android:layout_below="@+id/title_bar_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="26dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/white"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView_userlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spn_layout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:text="顯示我的報修" />
+
+    <LinearLayout
+        android:layout_width="372dp"
+        android:layout_height="165dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/switch1">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="姓名:"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/text_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="學號:"
+                android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/text_userid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp" /></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="報修時間:"
+                android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/text_fixtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp" /></TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="報修項目:"
+                android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/text_fixreitem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp" /></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="報修原因:"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/text_fixreason"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp" /></TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

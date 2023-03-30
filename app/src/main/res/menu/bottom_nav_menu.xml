@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/viewlist"
+    android:title="報修首頁"
+    android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:id="@+id/addlist"
+        android:title="新增報修"
+        android:icon="@drawable/ic_baseline_library_add_24"/>
+    <item android:id="@+id/personal"
+        android:title="個人設置"
+        android:icon="@drawable/ic_baseline_perm_identity_24"/>
+
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1088718250392",
+    "firebase_url": "https://fixtool-app-default-rtdb.firebaseio.com",
+    "project_id": "fixtool-app",
+    "storage_bucket": "fixtool-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088718250392:android:70a176bb4c05c6799f0bed",
+        "android_client_info": {
+          "package_name": "com.example.bottomnavigationviewwithfragments"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088718250392-18vdmfihff37mvlloa30resq9hon2s6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdJYqJD1-XUqlEDeZfeiDI4iDxZNcn_iY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088718250392-18vdmfihff37mvlloa30resq9hon2s6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

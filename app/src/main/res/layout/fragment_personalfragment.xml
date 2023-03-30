@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:padding="16dp"
+    tools:context=".personalfragment">
+
+    <RelativeLayout
+        android:id="@+id/title_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/page_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="帳戶設定"
+            android:textColor="@color/purple_500"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/menu2_btn"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_baseline_menu_24"
+            app:tint="@color/purple_500" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/spn_layout2"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonprofile"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="5dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="89dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/white"
+        android:orientation="vertical"
+        android:padding="16dp"><![CDATA[>
+
+        ]]>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="姓名"
+
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="信箱"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextTexstudentid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="學號"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonprofile"
+        android:layout_width="204dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="125dp"
+        android:text="儲存設定" />
+
+    <ImageView
+        android:id="@+id/imageprofilepicture"
+        android:layout_width="176dp"
+        android:layout_height="162dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="156dp"
+        tools:src="@tools:sample/avatars" />
+
+
+</RelativeLayout>
